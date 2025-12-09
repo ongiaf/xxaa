@@ -1,0 +1,17 @@
+[project]
+name = "xxaa"
+version = "0.1.0"
+description = "a small torch profiling file analyzer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1.8",
+    "rich>=13.9.4",
+    "pandas>=2.0.3",
+    "tabulate>=0.9.0",
+    "openpyxl>=3.1.5",
+]
+
+
+[project.scripts]
+xxaa = "xxaa.cli:cli"
